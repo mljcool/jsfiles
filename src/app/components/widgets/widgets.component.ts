@@ -10,7 +10,7 @@ export class WidgetsComponent implements OnInit {
 
     exampleTextField: any = '';
 
-    title = 'fluent-UI';
+    title = 'fluent-UI Updated Changes';
 
     dialogElement: any;
 
