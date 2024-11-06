@@ -4580,10 +4580,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "AppModule": () => (/* binding */ AppModule)
 /* harmony export */ });
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
-/* harmony import */ var _angular_elements__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/elements */ 4555);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_elements__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/elements */ 4555);
 /* harmony import */ var _components_widgets_widgets_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/widgets/widgets.component */ 4390);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _components_sample_fields_sample_fields_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/sample-fields/sample-fields.component */ 9312);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ 2560);
+
 
 
 
@@ -4594,10 +4596,10 @@ class AppModule {
         this.injector = injector;
     }
     ngDoBootstrap() {
-        const elements = [[_components_widgets_widgets_component__WEBPACK_IMPORTED_MODULE_0__.WidgetsComponent, 'widgets-component']];
+        const elements = [[_components_widgets_widgets_component__WEBPACK_IMPORTED_MODULE_0__.WidgetsComponent, 'widgets-component'], [_components_sample_fields_sample_fields_component__WEBPACK_IMPORTED_MODULE_1__.SampleFieldsComponent, 'sample-fields']];
         try {
             for (const [component, name] of elements) {
-                const elem = (0,_angular_elements__WEBPACK_IMPORTED_MODULE_1__.createCustomElement)(component, { injector: this.injector });
+                const elem = (0,_angular_elements__WEBPACK_IMPORTED_MODULE_2__.createCustomElement)(component, { injector: this.injector });
                 customElements.define(name, elem);
             }
         }
@@ -4605,11 +4607,48 @@ class AppModule {
             console.error('ANGULAR ERROR', error);
         }
     }
-    static { this.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_2__.Injector)); }; }
-    static { this.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineNgModule"]({ type: AppModule }); }
-    static { this.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineInjector"]({ imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule] }); }
+    static { this.ɵfac = function AppModule_Factory(t) { return new (t || AppModule)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵinject"](_angular_core__WEBPACK_IMPORTED_MODULE_3__.Injector)); }; }
+    static { this.ɵmod = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineNgModule"]({ type: AppModule }); }
+    static { this.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineInjector"]({ imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__.BrowserModule] }); }
 }
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_components_widgets_widgets_component__WEBPACK_IMPORTED_MODULE_0__.WidgetsComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.BrowserModule] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_components_widgets_widgets_component__WEBPACK_IMPORTED_MODULE_0__.WidgetsComponent, _components_sample_fields_sample_fields_component__WEBPACK_IMPORTED_MODULE_1__.SampleFieldsComponent], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_4__.BrowserModule] }); })();
+
+
+/***/ }),
+
+/***/ 9312:
+/*!*********************************************************************!*\
+  !*** ./src/app/components/sample-fields/sample-fields.component.ts ***!
+  \*********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "SampleFieldsComponent": () => (/* binding */ SampleFieldsComponent)
+/* harmony export */ });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2560);
+
+class SampleFieldsComponent {
+    constructor() {
+        this.exampleTextField = '';
+        this.title = 'fluent-UI Updated Changes';
+        this.dialogCloser = null;
+        this.dialogOpener = null;
+    }
+    ngOnInit() {
+    }
+    static { this.ɵfac = function SampleFieldsComponent_Factory(t) { return new (t || SampleFieldsComponent)(); }; }
+    static { this.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: SampleFieldsComponent, selectors: [["sample-widgets"]], inputs: { message: "message" }, decls: 6, vars: 0, consts: [["value", "0"]], template: function SampleFieldsComponent_Template(rf, ctx) { if (rf & 1) {
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "fluent-card");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Number fields");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "fluent-number-field", 0);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](5, "Number: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+        } }, styles: ["fluent-card[_ngcontent-%COMP%] {\n  padding: 16px;\n  display: flex;\n  flex-direction: column;\n}\n\nfluent-text-field[_ngcontent-%COMP%] {\n  margin-bottom: 12px;\n}\n\nh2[_ngcontent-%COMP%] {\n  font-size: var(--type-ramp-plus-5-font-size);\n  line-height: var(--type-ramp-plus-5-line-height);\n}\n\nfluent-card[_ngcontent-%COMP%]    > fluent-button[_ngcontent-%COMP%] {\n  align-self: flex-end;\n}\n\nfluent-radio[_ngcontent-%COMP%] {\n  margin-bottom: 5px;\n}"] }); }
+}
 
 
 /***/ }),
@@ -4654,7 +4693,7 @@ class WidgetsComponent {
         this.dialogElement.hidden = true;
     }
     static { this.ɵfac = function WidgetsComponent_Factory(t) { return new (t || WidgetsComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WidgetsComponent, selectors: [["app-widgets"]], inputs: { message: "message" }, decls: 100, vars: 2, consts: [["name", "exampleTextField", "ngDefaultControl", "", "placeholder", "Enter Some Text", 3, "ngModel", "ngModelChange"], ["appearance", "accent", 3, "click"], ["orientation", "vertical"], ["slot", "checked-message"], ["slot", "unchecked-message"], ["for", "cap-switch"], ["appearance", "accent", "id", "dialogOpener"], ["id", "defaultDialog", "hidden", "", "trap-focus", "", "modal", ""], [2, "margin", "20px"], ["id", "dialogCloser", "appearance", "accent", "tabindex", "0"], ["activeid", "entrees"], ["id", "apps"], ["id", "entrees"], ["id", "desserts"], ["id", "appsPanel"], ["href", "#", "appearance", "hypertext"], ["id", "entreesPanel"], ["id", "dessertsPanel"], ["value", "0"]], template: function WidgetsComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WidgetsComponent, selectors: [["app-widgets"]], inputs: { message: "message" }, decls: 95, vars: 2, consts: [["name", "exampleTextField", "ngDefaultControl", "", "placeholder", "Enter Some Text", 3, "ngModel", "ngModelChange"], ["appearance", "accent", 3, "click"], ["orientation", "vertical"], ["slot", "checked-message"], ["slot", "unchecked-message"], ["for", "cap-switch"], ["appearance", "accent", "id", "dialogOpener"], ["id", "defaultDialog", "hidden", "", "trap-focus", "", "modal", ""], [2, "margin", "20px"], ["id", "dialogCloser", "appearance", "accent", "tabindex", "0"], ["activeid", "entrees"], ["id", "apps"], ["id", "entrees"], ["id", "desserts"], ["id", "appsPanel"], ["href", "#", "appearance", "hypertext"], ["id", "entreesPanel"], ["id", "dessertsPanel"]], template: function WidgetsComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "fluent-card")(1, "h2");
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -4758,14 +4797,7 @@ class WidgetsComponent {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li")(93, "fluent-anchor", 15);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "Limoncello and Ice Cream with Biscotti");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h2");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Number field");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "fluent-number-field", 18);
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Number: ");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
         } if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.title);
