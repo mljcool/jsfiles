@@ -1,0 +1,67 @@
+<fluent-card>
+  <h2>{{title}}</h2>
+  <fluent-text-field [(ngModel)]="exampleTextField" name="exampleTextField" ngDefaultControl
+    placeholder="Enter Some Text"></fluent-text-field>
+  <fluent-button appearance="accent" (click)="onClick()">Click Me</fluent-button>
+  <fluent-checkbox></fluent-checkbox>
+  <br />
+  <h3>Radio and Radio Group</h3>
+  <fluent-radio-group orientation="vertical">
+    <fluent-radio>18-24</fluent-radio>
+    <fluent-radio>25-33</fluent-radio>
+    <fluent-radio>34-44</fluent-radio>
+    <fluent-radio>45+</fluent-radio>
+  </fluent-radio-group>
+  <br />
+  <h3>Switch</h3>
+
+  <fluent-switch>
+    <span slot="checked-message">On</span>
+    <span slot="unchecked-message">Off</span>
+    <label for="cap-switch">Captions:</label>
+  </fluent-switch>
+
+  <br />
+  <h3>Dialog</h3>
+  <fluent-button appearance="accent" id="dialogOpener">Show Dialog</fluent-button>
+<fluent-dialog id="defaultDialog" hidden trap-focus modal>
+  <div style="margin: 20px;">
+    <h2>Dialog with text and a button</h2>
+    <fluent-button id="dialogCloser" appearance="accent" tabindex="0">Dismiss</fluent-button>
+  </div>
+</fluent-dialog>
+
+  <br />
+  <h3>Tabs</h3>
+  <fluent-tabs activeid="entrees">
+    <fluent-tab id="apps">Appetizers</fluent-tab>
+    <fluent-tab id="entrees">Entrees</fluent-tab>
+    <fluent-tab id="desserts">Desserts</fluent-tab>
+    <fluent-tab-panel id="appsPanel">
+      <ol>
+        <li><fluent-anchor href="#" appearance="hypertext">Stuffed artichokes</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Bruschetta</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Oven-baked polenta</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Salami and Fig Crostini with Ricotta</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Rosemary-Potato Focaccia with Goat Cheese</fluent-anchor>
+        </li>
+      </ol>
+    </fluent-tab-panel>
+    <fluent-tab-panel id="entreesPanel">
+      <ol>
+        <li><fluent-anchor href="#" appearance="hypertext">Mushroom-Sausage Ragù</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Tomato Bread Soup with Steamed Mussels</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Grilled Fish with Artichoke Caponata</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Celery Root and Mushroom Lasagna</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Osso Buco with Citrus Gremolata</fluent-anchor></li>
+      </ol>
+    </fluent-tab-panel>
+    <fluent-tab-panel id="dessertsPanel">
+      <ol>
+        <li><fluent-anchor href="#" appearance="hypertext">Tiramisu</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Spumoni</fluent-anchor></li>
+        <li><fluent-anchor href="#" appearance="hypertext">Limoncello and Ice Cream with Biscotti</fluent-anchor></li>
+      </ol>
+    </fluent-tab-panel>
+  </fluent-tabs>
+</fluent-card>
