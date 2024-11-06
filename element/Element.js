@@ -4629,7 +4629,7 @@ __webpack_require__.r(__webpack_exports__);
 class WidgetsComponent {
     constructor() {
         this.exampleTextField = '';
-        this.title = 'fluent-UI - (Power portal)';
+        this.title = 'fluent-UI';
         this.dialogCloser = null;
         this.dialogOpener = null;
     }

@@ -10,7 +10,7 @@ export class WidgetsComponent implements OnInit {
 
     exampleTextField: any = '';
 
-    title = 'fluent-UI - (Power portal)';
+    title = 'fluent-UI';
 
     dialogElement: any;
 
