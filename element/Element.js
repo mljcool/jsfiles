@@ -4654,7 +4654,7 @@ class WidgetsComponent {
         this.dialogElement.hidden = true;
     }
     static { this.ɵfac = function WidgetsComponent_Factory(t) { return new (t || WidgetsComponent)(); }; }
-    static { this.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WidgetsComponent, selectors: [["app-widgets"]], inputs: { message: "message" }, decls: 95, vars: 2, consts: [["name", "exampleTextField", "ngDefaultControl", "", "placeholder", "Enter Some Text", 3, "ngModel", "ngModelChange"], ["appearance", "accent", 3, "click"], ["orientation", "vertical"], ["slot", "checked-message"], ["slot", "unchecked-message"], ["for", "cap-switch"], ["appearance", "accent", "id", "dialogOpener"], ["id", "defaultDialog", "hidden", "", "trap-focus", "", "modal", ""], [2, "margin", "20px"], ["id", "dialogCloser", "appearance", "accent", "tabindex", "0"], ["activeid", "entrees"], ["id", "apps"], ["id", "entrees"], ["id", "desserts"], ["id", "appsPanel"], ["href", "#", "appearance", "hypertext"], ["id", "entreesPanel"], ["id", "dessertsPanel"]], template: function WidgetsComponent_Template(rf, ctx) { if (rf & 1) {
+    static { this.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WidgetsComponent, selectors: [["app-widgets"]], inputs: { message: "message" }, decls: 100, vars: 2, consts: [["name", "exampleTextField", "ngDefaultControl", "", "placeholder", "Enter Some Text", 3, "ngModel", "ngModelChange"], ["appearance", "accent", 3, "click"], ["orientation", "vertical"], ["slot", "checked-message"], ["slot", "unchecked-message"], ["for", "cap-switch"], ["appearance", "accent", "id", "dialogOpener"], ["id", "defaultDialog", "hidden", "", "trap-focus", "", "modal", ""], [2, "margin", "20px"], ["id", "dialogCloser", "appearance", "accent", "tabindex", "0"], ["activeid", "entrees"], ["id", "apps"], ["id", "entrees"], ["id", "desserts"], ["id", "appsPanel"], ["href", "#", "appearance", "hypertext"], ["id", "entreesPanel"], ["id", "dessertsPanel"], ["value", "0"]], template: function WidgetsComponent_Template(rf, ctx) { if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "fluent-card")(1, "h2");
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -4758,7 +4758,14 @@ class WidgetsComponent {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "li")(93, "fluent-anchor", 15);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](94, "Limoncello and Ice Cream with Biscotti");
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()()()()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](96, "h2");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](97, "Number field");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "fluent-number-field", 18);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](99, "Number: ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]()();
         } if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.title);
@@ -4794,8 +4801,8 @@ const environment = {
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/core */ 2560);
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/platform-browser */ 4497);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/core */ 2560);
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 6747);
 /* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 2340);
 /* harmony import */ var _fluentui_web_components__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fluentui/web-components */ 824);
@@ -4809,16 +4816,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _fluentui_web_components__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @fluentui/web-components */ 3434);
 /* harmony import */ var _fluentui_web_components__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @fluentui/web-components */ 7528);
 /* harmony import */ var _fluentui_web_components__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @fluentui/web-components */ 4977);
+/* harmony import */ var _fluentui_web_components__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @fluentui/web-components */ 2370);
 
 
 
 
 
-(0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_2__.provideFluentDesignSystem)().register((0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_3__.fluentCard)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_4__.fluentButton)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_5__.fluentTextField)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_6__.fluentRadioGroup)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_7__.fluentRadio)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_8__.fluentTab)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_9__.fluentTabPanel)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_10__.fluentTabs)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_11__.fluentSwitch)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_12__.fluentDialog)());
+(0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_2__.provideFluentDesignSystem)().register((0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_3__.fluentCard)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_4__.fluentButton)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_5__.fluentTextField)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_6__.fluentRadioGroup)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_7__.fluentRadio)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_8__.fluentTab)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_9__.fluentTabPanel)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_10__.fluentTabs)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_11__.fluentSwitch)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_12__.fluentDialog)(), (0,_fluentui_web_components__WEBPACK_IMPORTED_MODULE_13__.fluentNumberField)());
 if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
-    (0,_angular_core__WEBPACK_IMPORTED_MODULE_13__.enableProdMode)();
+    (0,_angular_core__WEBPACK_IMPORTED_MODULE_14__.enableProdMode)();
 }
-_angular_platform_browser__WEBPACK_IMPORTED_MODULE_14__.platformBrowser()
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_15__.platformBrowser()
     .bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
     .catch((err) => console.error(err));
 
@@ -7600,6 +7608,178 @@ __webpack_require__.r(__webpack_exports__);
 function provideFluentDesignSystem(element) {
   return _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_0__.DesignSystem.getOrCreate(element).withPrefix('fluent');
 }
+
+/***/ }),
+
+/***/ 2370:
+/*!******************************************************************************!*\
+  !*** ./node_modules/@fluentui/web-components/dist/esm/number-field/index.js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "NumberField": () => (/* binding */ NumberField),
+/* harmony export */   "fluentNumberField": () => (/* binding */ fluentNumberField),
+/* harmony export */   "numberFieldStyles": () => (/* binding */ numberFieldStyles)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! tslib */ 2321);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/fast-element */ 7981);
+/* harmony import */ var _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/fast-foundation */ 1701);
+/* harmony import */ var _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/fast-foundation */ 2603);
+/* harmony import */ var _number_field_styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./number-field.styles */ 2630);
+
+
+
+
+/**
+ * The Fluent number field class
+ * @internal
+ */
+
+class NumberField extends _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_0__.NumberField {
+  /**
+   * @internal
+   */
+  connectedCallback() {
+    super.connectedCallback();
+
+    if (!this.appearance) {
+      this.appearance = 'outline';
+    }
+  }
+
+}
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_1__.__decorate)([_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_2__.attr], NumberField.prototype, "appearance", void 0);
+/**
+ * Styles for NumberField
+ * @public
+ */
+
+
+const numberFieldStyles = _number_field_styles__WEBPACK_IMPORTED_MODULE_3__.numberFieldStyles;
+/**
+ * The Fluent Number Field Custom Element. Implements {@link @microsoft/fast-foundation#NumberField},
+ * {@link @microsoft/fast-foundation#numberFieldTemplate}
+ *
+ *
+ * @public
+ * @remarks
+ * HTML Element: \<fluent-number-field\>
+ *
+ * {@link https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot/delegatesFocus | delegatesFocus}
+ */
+
+const fluentNumberField = NumberField.compose({
+  baseName: 'number-field',
+  baseClass: _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_0__.NumberField,
+  styles: _number_field_styles__WEBPACK_IMPORTED_MODULE_3__.numberFieldStyles,
+  template: _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_4__.numberFieldTemplate,
+  shadowOptions: {
+    delegatesFocus: true
+  },
+  stepDownGlyph: `
+    <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2.15 4.65c.2-.2.5-.2.7 0L6 7.79l3.15-3.14a.5.5 0 11.7.7l-3.5 3.5a.5.5 0 01-.7 0l-3.5-3.5a.5.5 0 010-.7z"/>
+    </svg>
+  `,
+  stepUpGlyph: `
+    <svg width="12" height="12" xmlns="http://www.w3.org/2000/svg">
+      <path d="M2.15 7.35c.2.2.5.2.7 0L6 4.21l3.15 3.14a.5.5 0 10.7-.7l-3.5-3.5a.5.5 0 00-.7 0l-3.5 3.5a.5.5 0 000 .7z"/>
+    </svg>
+`
+});
+
+/***/ }),
+
+/***/ 2630:
+/*!********************************************************************************************!*\
+  !*** ./node_modules/@fluentui/web-components/dist/esm/number-field/number-field.styles.js ***!
+  \********************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "numberFieldStyles": () => (/* binding */ numberFieldStyles)
+/* harmony export */ });
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/fast-element */ 1153);
+/* harmony import */ var _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/fast-foundation */ 5402);
+/* harmony import */ var _microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @microsoft/fast-foundation */ 9483);
+/* harmony import */ var _styles_index__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/index */ 9066);
+/* harmony import */ var _utilities_behaviors__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../utilities/behaviors */ 3100);
+/* harmony import */ var _design_tokens__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../design-tokens */ 3237);
+
+
+
+
+
+const logicalControlSelector = '.root';
+const numberFieldStyles = (context, definition) => _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_0__.css`
+    ${(0,_microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_1__.display)('inline-block')}
+
+    ${(0,_styles_index__WEBPACK_IMPORTED_MODULE_2__.baseInputStyles)(context, definition, logicalControlSelector)}
+
+    ${(0,_styles_index__WEBPACK_IMPORTED_MODULE_2__.inputStateStyles)(context, definition, logicalControlSelector)}
+
+    .root {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .control {
+      -webkit-appearance: none;
+      color: inherit;
+      background: transparent;
+      border: 0;
+      height: calc(100% - 4px);
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 0 calc(${_design_tokens__WEBPACK_IMPORTED_MODULE_3__.designUnit} * 2px + 1px);
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+    }
+
+    .start,
+    .end {
+      margin: auto;
+      fill: currentcolor;
+    }
+
+    .start {
+      display: flex;
+      margin-inline-start: 11px;
+    }
+
+    .end {
+      display: flex;
+      margin-inline-end: 11px;
+    }
+
+    .controls {
+      opacity: 0;
+      position: relative;
+      top: -1px;
+      z-index: 3;
+    }
+
+    :host(:hover:not([disabled])) .controls,
+    :host(:focus-within:not([disabled])) .controls {
+      opacity: 1;
+    }
+
+    .step-up,
+    .step-down {
+      display: flex;
+      padding: 0 8px;
+      cursor: pointer;
+    }
+
+    .step-up {
+      padding-top: 3px;
+    }
+  `.withBehaviors((0,_utilities_behaviors__WEBPACK_IMPORTED_MODULE_4__.appearanceBehavior)('outline', (0,_styles_index__WEBPACK_IMPORTED_MODULE_2__.inputOutlineStyles)(context, definition, logicalControlSelector)), (0,_utilities_behaviors__WEBPACK_IMPORTED_MODULE_4__.appearanceBehavior)('filled', (0,_styles_index__WEBPACK_IMPORTED_MODULE_2__.inputFilledStyles)(context, definition, logicalControlSelector)), (0,_microsoft_fast_foundation__WEBPACK_IMPORTED_MODULE_5__.forcedColorsStylesheetBehavior)((0,_styles_index__WEBPACK_IMPORTED_MODULE_2__.inputForcedColorStyles)(context, definition, logicalControlSelector)));
 
 /***/ }),
 
@@ -71917,6 +72097,495 @@ class FoundationElementRegistry {
 
 }
 /* eslint-enable @typescript-eslint/no-unused-vars */
+
+/***/ }),
+
+/***/ 8731:
+/*!*******************************************************************************************************!*\
+  !*** ./node_modules/@microsoft/fast-foundation/dist/esm/number-field/number-field.form-associated.js ***!
+  \*******************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "FormAssociatedNumberField": () => (/* binding */ FormAssociatedNumberField)
+/* harmony export */ });
+/* harmony import */ var _form_associated_form_associated_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../form-associated/form-associated.js */ 9780);
+/* harmony import */ var _foundation_element_foundation_element_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../foundation-element/foundation-element.js */ 3820);
+
+
+
+class _NumberField extends _foundation_element_foundation_element_js__WEBPACK_IMPORTED_MODULE_0__.FoundationElement {}
+/**
+ * A form-associated base class for the {@link @microsoft/fast-foundation#(NumberField:class)} component.
+ *
+ * @internal
+ */
+
+
+class FormAssociatedNumberField extends (0,_form_associated_form_associated_js__WEBPACK_IMPORTED_MODULE_1__.FormAssociated)(_NumberField) {
+  constructor() {
+    super(...arguments);
+    this.proxy = document.createElement("input");
+  }
+
+}
+
+/***/ }),
+
+/***/ 1701:
+/*!***************************************************************************************!*\
+  !*** ./node_modules/@microsoft/fast-foundation/dist/esm/number-field/number-field.js ***!
+  \***************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "NumberField": () => (/* binding */ NumberField)
+/* harmony export */ });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! tslib */ 5016);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/fast-element */ 9511);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/fast-element */ 7981);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @microsoft/fast-element */ 5182);
+/* harmony import */ var _microsoft_fast_web_utilities__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @microsoft/fast-web-utilities */ 9393);
+/* harmony import */ var _patterns_start_end_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../patterns/start-end.js */ 8211);
+/* harmony import */ var _utilities_apply_mixins_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../utilities/apply-mixins.js */ 6266);
+/* harmony import */ var _text_field_text_field_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../text-field/text-field.js */ 2372);
+/* harmony import */ var _number_field_form_associated_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./number-field.form-associated.js */ 8731);
+
+
+
+
+
+
+
+/**
+ * A Number Field Custom HTML Element.
+ * Based largely on the {@link https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/number | <input type="number" /> element }.
+ *
+ * @slot start - Content which can be provided before the number field input
+ * @slot end - Content which can be provided after the number field input
+ * @slot - The default slot for the label
+ * @slot step-up-glyph - The glyph for the step up control
+ * @slot step-down-glyph - The glyph for the step down control
+ * @csspart label - The label
+ * @csspart root - The element wrapping the control, including start and end slots
+ * @csspart control - The element representing the input
+ * @csspart controls - The step up and step down controls
+ * @csspart step-up - The step up control
+ * @csspart step-down - The step down control
+ * @fires input - Fires a custom 'input' event when the value has changed
+ * @fires change - Fires a custom 'change' event when the value has changed
+ *
+ * @public
+ */
+
+class NumberField extends _number_field_form_associated_js__WEBPACK_IMPORTED_MODULE_0__.FormAssociatedNumberField {
+  constructor() {
+    super(...arguments);
+    /**
+     * When true, spin buttons will not be rendered
+     * @public
+     * @remarks
+     * HTML Attribute: autofocus
+     */
+
+    this.hideStep = false;
+    /**
+     * Amount to increment or decrement the value by
+     * @public
+     * @remarks
+     * HTMLAttribute: step
+     */
+
+    this.step = 1;
+    /**
+     * Flag to indicate that the value change is from the user input
+     * @internal
+     */
+
+    this.isUserInput = false;
+  }
+  /**
+   * Ensures that the max is greater than the min and that the value
+   *  is less than the max
+   * @param previous - the previous max value
+   * @param next - updated max value
+   *
+   * @internal
+   */
+
+
+  maxChanged(previous, next) {
+    var _a;
+
+    this.max = Math.max(next, (_a = this.min) !== null && _a !== void 0 ? _a : next);
+    const min = Math.min(this.min, this.max);
+
+    if (this.min !== undefined && this.min !== min) {
+      this.min = min;
+    }
+
+    this.value = this.getValidValue(this.value);
+  }
+  /**
+   * Ensures that the min is less than the max and that the value
+   *  is greater than the min
+   * @param previous - previous min value
+   * @param next - updated min value
+   *
+   * @internal
+   */
+
+
+  minChanged(previous, next) {
+    var _a;
+
+    this.min = Math.min(next, (_a = this.max) !== null && _a !== void 0 ? _a : next);
+    const max = Math.max(this.min, this.max);
+
+    if (this.max !== undefined && this.max !== max) {
+      this.max = max;
+    }
+
+    this.value = this.getValidValue(this.value);
+  }
+  /**
+   * The value property, typed as a number.
+   *
+   * @public
+   */
+
+
+  get valueAsNumber() {
+    return parseFloat(super.value);
+  }
+
+  set valueAsNumber(next) {
+    this.value = next.toString();
+  }
+  /**
+   * Validates that the value is a number between the min and max
+   * @param previous - previous stored value
+   * @param next - value being updated
+   * @param updateControl - should the text field be updated with value, defaults to true
+   * @internal
+   */
+
+
+  valueChanged(previous, next) {
+    this.value = this.getValidValue(next);
+
+    if (next !== this.value) {
+      return;
+    }
+
+    if (this.control && !this.isUserInput) {
+      this.control.value = this.value;
+    }
+
+    super.valueChanged(previous, this.value);
+
+    if (previous !== undefined && !this.isUserInput) {
+      this.$emit("input");
+      this.$emit("change");
+    }
+
+    this.isUserInput = false;
+  }
+  /** {@inheritDoc (FormAssociated:interface).validate} */
+
+
+  validate() {
+    super.validate(this.control);
+  }
+  /**
+   * Sets the internal value to a valid number between the min and max properties
+   * @param value - user input
+   *
+   * @internal
+   */
+
+
+  getValidValue(value) {
+    var _a, _b;
+
+    let validValue = parseFloat(parseFloat(value).toPrecision(12));
+
+    if (isNaN(validValue)) {
+      validValue = "";
+    } else {
+      validValue = Math.min(validValue, (_a = this.max) !== null && _a !== void 0 ? _a : validValue);
+      validValue = Math.max(validValue, (_b = this.min) !== null && _b !== void 0 ? _b : validValue).toString();
+    }
+
+    return validValue;
+  }
+  /**
+   * Increments the value using the step value
+   *
+   * @public
+   */
+
+
+  stepUp() {
+    const value = parseFloat(this.value);
+    const stepUpValue = !isNaN(value) ? value + this.step : this.min > 0 ? this.min : this.max < 0 ? this.max : !this.min ? this.step : 0;
+    this.value = stepUpValue.toString();
+  }
+  /**
+   * Decrements the value using the step value
+   *
+   * @public
+   */
+
+
+  stepDown() {
+    const value = parseFloat(this.value);
+    const stepDownValue = !isNaN(value) ? value - this.step : this.min > 0 ? this.min : this.max < 0 ? this.max : !this.min ? 0 - this.step : 0;
+    this.value = stepDownValue.toString();
+  }
+  /**
+   * Sets up the initial state of the number field
+   * @internal
+   */
+
+
+  connectedCallback() {
+    super.connectedCallback();
+    this.proxy.setAttribute("type", "number");
+    this.validate();
+    this.control.value = this.value;
+
+    if (this.autofocus) {
+      _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_1__.DOM.queueUpdate(() => {
+        this.focus();
+      });
+    }
+  }
+  /**
+   * Selects all the text in the number field
+   *
+   * @public
+   */
+
+
+  select() {
+    this.control.select();
+    /**
+     * The select event does not permeate the shadow DOM boundary.
+     * This fn effectively proxies the select event,
+     * emitting a `select` event whenever the internal
+     * control emits a `select` event
+     */
+
+    this.$emit("select");
+  }
+  /**
+   * Handles the internal control's `input` event
+   * @internal
+   */
+
+
+  handleTextInput() {
+    this.control.value = this.control.value.replace(/[^0-9\-+e.]/g, "");
+    this.isUserInput = true;
+    this.value = this.control.value;
+  }
+  /**
+   * Change event handler for inner control.
+   * @remarks
+   * "Change" events are not `composable` so they will not
+   * permeate the shadow DOM boundary. This fn effectively proxies
+   * the change event, emitting a `change` event whenever the internal
+   * control emits a `change` event
+   * @internal
+   */
+
+
+  handleChange() {
+    this.$emit("change");
+  }
+  /**
+   * Handles the internal control's `keydown` event
+   * @internal
+   */
+
+
+  handleKeyDown(e) {
+    const key = e.key;
+
+    switch (key) {
+      case _microsoft_fast_web_utilities__WEBPACK_IMPORTED_MODULE_2__.keyArrowUp:
+        this.stepUp();
+        return false;
+
+      case _microsoft_fast_web_utilities__WEBPACK_IMPORTED_MODULE_2__.keyArrowDown:
+        this.stepDown();
+        return false;
+    }
+
+    return true;
+  }
+  /**
+   * Handles populating the input field with a validated value when
+   *  leaving the input field.
+   * @internal
+   */
+
+
+  handleBlur() {
+    this.control.value = this.value;
+  }
+
+}
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  attribute: "readonly",
+  mode: "boolean"
+})], NumberField.prototype, "readOnly", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  mode: "boolean"
+})], NumberField.prototype, "autofocus", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  attribute: "hide-step",
+  mode: "boolean"
+})], NumberField.prototype, "hideStep", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr], NumberField.prototype, "placeholder", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr], NumberField.prototype, "list", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "maxlength", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "minlength", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "size", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "step", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "max", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.attr)({
+  converter: _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.nullableNumberConverter
+})], NumberField.prototype, "min", void 0);
+
+(0,tslib__WEBPACK_IMPORTED_MODULE_3__.__decorate)([_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_5__.observable], NumberField.prototype, "defaultSlottedNodes", void 0);
+
+(0,_utilities_apply_mixins_js__WEBPACK_IMPORTED_MODULE_6__.applyMixins)(NumberField, _patterns_start_end_js__WEBPACK_IMPORTED_MODULE_7__.StartEnd, _text_field_text_field_js__WEBPACK_IMPORTED_MODULE_8__.DelegatesARIATextbox);
+
+/***/ }),
+
+/***/ 2603:
+/*!************************************************************************************************!*\
+  !*** ./node_modules/@microsoft/fast-foundation/dist/esm/number-field/number-field.template.js ***!
+  \************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "numberFieldTemplate": () => (/* binding */ numberFieldTemplate)
+/* harmony export */ });
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @microsoft/fast-element */ 7370);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @microsoft/fast-element */ 9132);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @microsoft/fast-element */ 3874);
+/* harmony import */ var _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @microsoft/fast-element */ 5462);
+/* harmony import */ var _patterns_start_end_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../patterns/start-end.js */ 8211);
+
+
+/**
+ * The template for the {@link @microsoft/fast-foundation#(NumberField:class)} component.
+ * @public
+ */
+
+const numberFieldTemplate = (context, definition) => _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_0__.html`
+    <template class="${x => x.readOnly ? "readonly" : ""}">
+        <label
+            part="label"
+            for="control"
+            class="${x => x.defaultSlottedNodes && x.defaultSlottedNodes.length ? "label" : "label label__hidden"}"
+        >
+            <slot ${(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_1__.slotted)("defaultSlottedNodes")}></slot>
+        </label>
+        <div class="root" part="root">
+            ${(0,_patterns_start_end_js__WEBPACK_IMPORTED_MODULE_2__.startSlotTemplate)(context, definition)}
+            <input
+                class="control"
+                part="control"
+                id="control"
+                @input="${x => x.handleTextInput()}"
+                @change="${x => x.handleChange()}"
+                @keydown="${(x, c) => x.handleKeyDown(c.event)}"
+                @blur="${(x, c) => x.handleBlur()}"
+                ?autofocus="${x => x.autofocus}"
+                ?disabled="${x => x.disabled}"
+                list="${x => x.list}"
+                maxlength="${x => x.maxlength}"
+                minlength="${x => x.minlength}"
+                placeholder="${x => x.placeholder}"
+                ?readonly="${x => x.readOnly}"
+                ?required="${x => x.required}"
+                size="${x => x.size}"
+                type="text"
+                inputmode="numeric"
+                min="${x => x.min}"
+                max="${x => x.max}"
+                step="${x => x.step}"
+                aria-atomic="${x => x.ariaAtomic}"
+                aria-busy="${x => x.ariaBusy}"
+                aria-controls="${x => x.ariaControls}"
+                aria-current="${x => x.ariaCurrent}"
+                aria-describedby="${x => x.ariaDescribedby}"
+                aria-details="${x => x.ariaDetails}"
+                aria-disabled="${x => x.ariaDisabled}"
+                aria-errormessage="${x => x.ariaErrormessage}"
+                aria-flowto="${x => x.ariaFlowto}"
+                aria-haspopup="${x => x.ariaHaspopup}"
+                aria-hidden="${x => x.ariaHidden}"
+                aria-invalid="${x => x.ariaInvalid}"
+                aria-keyshortcuts="${x => x.ariaKeyshortcuts}"
+                aria-label="${x => x.ariaLabel}"
+                aria-labelledby="${x => x.ariaLabelledby}"
+                aria-live="${x => x.ariaLive}"
+                aria-owns="${x => x.ariaOwns}"
+                aria-relevant="${x => x.ariaRelevant}"
+                aria-roledescription="${x => x.ariaRoledescription}"
+                ${(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_3__.ref)("control")}
+            />
+            ${(0,_microsoft_fast_element__WEBPACK_IMPORTED_MODULE_4__.when)(x => !x.hideStep && !x.readOnly && !x.disabled, _microsoft_fast_element__WEBPACK_IMPORTED_MODULE_0__.html`
+                    <div class="controls" part="controls">
+                        <div class="step-up" part="step-up" @click="${x => x.stepUp()}">
+                            <slot name="step-up-glyph">
+                                ${definition.stepUpGlyph || ""}
+                            </slot>
+                        </div>
+                        <div
+                            class="step-down"
+                            part="step-down"
+                            @click="${x => x.stepDown()}"
+                        >
+                            <slot name="step-down-glyph">
+                                ${definition.stepDownGlyph || ""}
+                            </slot>
+                        </div>
+                    </div>
+                `)}
+            ${(0,_patterns_start_end_js__WEBPACK_IMPORTED_MODULE_2__.endSlotTemplate)(context, definition)}
+        </div>
+    </template>
+`;
 
 /***/ }),
 
